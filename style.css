@@ -60,11 +60,11 @@ button{
     overflow: hidden;
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
-h3 {
+button p {
     color: hsl(238, 29%, 16%);
     font-size: 14px;
 }
-h3:hover {
+button p:hover {
     color: hsl(14, 88%, 65%);
 }
 .active {
@@ -122,7 +122,7 @@ h3:hover {
     }
     #FAQ-container{
         width: 100%;
-        padding:0px;
+        padding:0;
         margin: 50% 0 30% 0;
     }
     h1 {
