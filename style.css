@@ -39,12 +39,13 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 14px;
 }
 .questions {
     background-color: transparent;
-    color: hsl(237, 12%, 33%);
+    color: hsl(238, 29%, 16%);
     cursor: pointer;
-    padding: 5px;
+    padding: 15px 0px;
     width: 100%;
     text-align: left;
     border: none;
@@ -60,18 +61,13 @@ button{
     overflow: hidden;
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
-button p {
-    color: hsl(238, 29%, 16%);
-    font-size: 14px;
-}
-button p:hover {
+button:hover {
     color: hsl(14, 88%, 65%);
 }
 .active {
+    color: hsl(238, 29%, 16%);
     border-bottom: none; 
-    padding: 0;
-}
-.active h3 {
+    padding-top: 20px;
     font-weight: 700;
 }
 .active img {
@@ -128,45 +124,6 @@ button p:hover {
     h1 {
         text-align: center;
         font-size: 32px;
-    }
-    button{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .questions {
-        background-color: transparent;
-        color: hsl(237, 12%, 33%);
-        cursor: pointer;
-        padding: 5px;
-        width: 100%;
-        text-align: left;
-        border: none;
-        border-bottom: 1px solid hsl(240, 5%, 91%);
-        outline: none;
-        transition: 0.2s;
-    }
-    .answers {
-        padding: 0 5px;
-        line-height: 1.5;
-        background-color:transparent;
-        display: none;
-        overflow: hidden;
-        border-bottom: 1px solid hsl(240, 5%, 91%);
-    }
-    h3 {
-        color: hsl(238, 29%, 16%);
-        font-size: 14px;
-    }
-    h3:hover {
-        color: hsl(14, 88%, 65%);
-    }
-    .active {
-        border-bottom: none; 
-        padding: 0;
-    }
-    .arrow-icon {
-        align-self: center;
     }
     #desktop-img{
         display: none;
